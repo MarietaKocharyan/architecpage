@@ -1,6 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import MediaCard from './cards'
 
-class Goal extends Component {
+class Artsof extends Component {
     render() {  
+        return(
+            <MediaCard />
+        )
     }
 }
+
+export default Artsof;

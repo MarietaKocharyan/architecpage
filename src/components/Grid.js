@@ -2,8 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import MenuButtons from './Menu'
-import MediaCard from  './Arts/cards'
+import MenuButtons from './menu'
 
 const styles = theme => ({
   root: {

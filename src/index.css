@@ -2,3 +2,11 @@ body {
   background: #834c69;
   padding: 15px;
 }
+.classes.card {
+  padding: 357px;
+}
+#MuiCardContent-root-163{
+  padding: 357px;
+  margin: 20px;
+  text-align: center;
+}
