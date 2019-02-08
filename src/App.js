@@ -11,7 +11,7 @@ class App extends Component {
           <CenteredGrid />
           <Router>
             <Switch>
-              <Route exact component={SimpleCard} /> 
+              <Route exact path = '/' component={SimpleCard} /> 
               <Route path="/arts" component={Artsof} />
               {/* <Route path="/" component={} />
               <Route path="/" component={} />

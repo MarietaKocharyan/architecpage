@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
+import Artsof from './Arts/index'
 
 
 const styles = theme => ({
@@ -18,8 +19,10 @@ const styles = theme => ({
 class MenuButtons extends Component {
   constructor(props){
     super(props);
-    this.state ={}
+    this.state ={};
   }
+  handleClick = () => <Artsof />
+
   render(){
     const { classes, images } = this.props;
     return (
@@ -30,13 +33,13 @@ class MenuButtons extends Component {
           justify="space-between"
       >
         <Button className={classes.button}>Goal</Button>
-        <Button  className={classes.button}>
+        <Button  className={classes.button}> 
             About
         </Button>
         <Button  className={classes.button}>
           Contect
         </Button>
-        <Button  className={classes.button}>
+        <Button  className={classes.button} onClick={this.handleClick}>
           Arts
         </Button>
         <input

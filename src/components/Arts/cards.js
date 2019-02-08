@@ -21,15 +21,15 @@ const styles = {
 function MediaCard(props) {
   const { classes, image } = props;
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} id ='MediaCard-card-158'>
       <CardActionArea>
         <CardMedia
           className={classes.media}
           image="/static/images/cards/contemplative-reptile.jpg"
           title="Contemplative Reptile"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+        <CardContent id ='MediaCard-card-158'>
+          <Typography gutterBottom variant="h5" component="h2" >
           </Typography>
           <Typography component="p">
           Lorem Ipsum is simply dummy text of the printing and 
