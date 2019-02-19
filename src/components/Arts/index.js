@@ -3,10 +3,12 @@ import MediaCard from './cards'
 
 class Artsof extends Component {
     render() {  
-        return(
-            <MediaCard />
-        )
+        for(let i = 0; i < 9; i++){
+            return ( 
+                <MediaCard />
+            );
+        }
     }
-}
+};
 
 export default Artsof;

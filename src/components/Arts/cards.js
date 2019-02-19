@@ -31,7 +31,7 @@ function MediaCard(props) {
         <CardContent id ='MediaCard-card-158'>
           <Typography gutterBottom variant="h5" component="h2" >
           </Typography>
-          <Typography component="p">
+          <Typography component="p" id = "cards-of-arts" >
           Lorem Ipsum is simply dummy text of the printing and 
           typesetting industry. Lorem Ipsum has been the industry's 
           standard dummy text ever since the 1500s, when an unknown

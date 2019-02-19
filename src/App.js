@@ -3,6 +3,7 @@ import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';
 import CenteredGrid from './components/Grid'
 import Artsof from './components/Arts/index'
 import SimpleCard from './components/Goal/index'
+import NotFound from './'
  
 class App extends Component {
   render() {
@@ -13,9 +14,9 @@ class App extends Component {
             <Switch>
               <Route exact path = '/' component={SimpleCard} /> 
               <Route path="/arts" component={Artsof} />
-              {/* <Route path="/" component={} />
               <Route path="/" component={} />
-              <Route path="/" component={} /> */}
+              <Route path="/" component={} />
+              <Route path="/" component={} /> 
             </Switch>
           </Router>
           </div>

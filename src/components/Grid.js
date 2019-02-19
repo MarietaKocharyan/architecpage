@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import MenuButtons from './menu'
+import MenuLinks from './menu'
 
 const styles = theme => ({
   root: {
@@ -20,7 +20,7 @@ function CenteredGrid(props) {
 
   return (
     <div className={classes.root}>
-          <Paper className={classes.paper}><MenuButtons/></Paper>
+          <Paper className={classes.paper}><MenuLinks/></Paper>
     </div>
   );
 }
