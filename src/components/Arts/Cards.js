@@ -18,7 +18,7 @@ const styles = {
   },
 };
 
-function MediaCard(props) {
+function Cards(props) {
   const { classes, image } = props;
   return (
     <Card className={classes.card} id ='MediaCard-card-158'>
@@ -56,9 +56,7 @@ function MediaCard(props) {
     </Card>
   );
 }
-
-MediaCard.propTypes = {
+Cards.propTypes = {
   classes: PropTypes.object.isRequired,
 };
-
-export default withStyles(styles)(MediaCard);
+export default withStyles(styles)(Cards);

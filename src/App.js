@@ -1,25 +1,13 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';
-import CenteredGrid from './components/Grid'
-import Artsof from './components/Arts/index'
-import SimpleCard from './components/Goal/index'
-import NotFound from './'
- 
+import React, { Component, Fragment } from 'react';
+import Menu from './components/Common/Menu'
+import Main from './components/Common/Main'
 class App extends Component {
   render() {
       return (
-        <div>
-          <CenteredGrid />
-          <Router>
-            <Switch>
-              <Route exact path = '/' component={SimpleCard} /> 
-              <Route path="/arts" component={Artsof} />
-              <Route path="/" component={} />
-              <Route path="/" component={} />
-              <Route path="/" component={} /> 
-            </Switch>
-          </Router>
-          </div>
+      <Fragment>
+        <Menu />
+        <Main />
+      </Fragment>
       );
   }
 }

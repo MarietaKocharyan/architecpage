@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import MediaCard from './cards'
+import Cards from './Cards'
 
-class Artsof extends Component {
+class Arts extends Component {
     render() {  
-        for(let i = 0; i < 9; i++){
-            return ( 
-                <MediaCard />
+        return ( 
+            <Cards />
             );
         }
-    }
 };
 
-export default Artsof;
+export default Arts;
