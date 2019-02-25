@@ -7,7 +7,8 @@ import Header from './Header'
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    margin: theme.spacing.unit
+    margin: theme.spacing.unit,
+    backgroundColor: "#e6f5ff",
 
   },
   paper: {
