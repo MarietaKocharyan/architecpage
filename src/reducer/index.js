@@ -1,3 +1,4 @@
-export function rootReducer(state = {}) {
+export const initialState = {}
+export function rootReducer(state = initialState) {
     return state
 };
