@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import Cards from './Cards'
+import images from './images';
+// import Cards from './Cards'
 
 class Arts extends Component {
-    render() {  
-        return ( 
-            <Cards />
+    render() {
+        return (
+            {/*<Cards />*/}
             );
         }
 };
