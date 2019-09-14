@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="755f57c5-e4c7-44b0-a738-1ebbd8b167a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/marieta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Arts/SearchBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Arts/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Arts/imagelist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Arts/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Arts/Cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Arts/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Arts/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Arts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Arts/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pathname</find>
-      <find>aboutPageParagraph</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
