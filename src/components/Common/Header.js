@@ -29,7 +29,9 @@ class  Header extends Component {
           <Link to='/arts' className={classes.Link}>
             Arts
           </Link> 
-
+          <Link to='/account' className={classes.Link}>
+            Account
+          </Link>
         </div>
       </Grid>
     );
