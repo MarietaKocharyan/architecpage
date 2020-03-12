@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-import NestedGrid from './Components/Grid'
-
+import React, { Component, Fragment } from 'react';
+import Menu from './components/Common/Menu'
+import Main from './components/Common/Main'
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-        <NestedGrid />
-        </header>
-      </div>
-    );
+      return (
+      <Fragment>
+        <Menu />
+        <Main />
+      </Fragment>
+      );
   }
 }
 
